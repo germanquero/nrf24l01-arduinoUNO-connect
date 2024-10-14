@@ -1,5 +1,4 @@
 # ARDUINO + NRF24L01
-#### Germán Quero
 ---
 ---
 
@@ -85,6 +84,9 @@ De esta forma y teniendo en cuenta GND y que el VCC apropiado para el modulo es 
 El condensador se añadiría entre 3.3V y GND
 
 Ambos circuitos, el emisor y el receptor son exacamente le mismo, puesto que solo van a mostrar la información transmitida o recibida por el monitor serial.
+
+
+![hardware-pic](media/pic1.jpg)
 
 
 ### Software
@@ -177,6 +179,8 @@ void loop() {
 
 
 Para utilizarlo, simplemente sube cada codigo a una de las arduino y abre los monitores seriales de cada una. Deberias ver en el emisor "El mensaje llego!" y en el receptor "Hola desde transmisor!" cada 1 segundo.
+
+![serial-monitors-screenshots](media/sc1.png)
 
 Si no estas utilizadno el IDE de Arduino, como es mi caso, necesitas una herramienta de terminal llamada arduino-cli.
 
